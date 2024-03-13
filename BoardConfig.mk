@@ -31,4 +31,4 @@ BOOT_KERNEL_MODULES += $(device_second_stage_modules)
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 
 # Screen density
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 480
