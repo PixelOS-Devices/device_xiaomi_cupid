@@ -7,10 +7,10 @@
 # Inherit from cupid device
 $(call inherit-product, device/xiaomi/cupid/device.mk)
 
-# Inherit from common lineage configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from common aosp configuration
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_cupid
+PRODUCT_NAME := aosp_cupid
 PRODUCT_DEVICE := cupid
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
