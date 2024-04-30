@@ -3,6 +3,8 @@
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_acdb_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp
+vendor/etc/acdbdata/Forte_elus/Forte_elus_acdb_cal.acdb
+vendor/etc/acdbdata/Forte_elus/Forte_elus_workspaceFileXml.qwsp
 
 # ADSP modules
 vendor/lib/rfsa/adsp/bm2n00.bin
@@ -17,6 +19,8 @@ vendor/lib/rfsa/adsp/bm2n08.bin
 vendor/lib/rfsa/adsp/bm2n09.bin
 vendor/lib/rfsa/adsp/bm2n10.bin
 vendor/lib/rfsa/adsp/bm2n11.bin
+vendor/lib/rfsa/adsp/capi_elus_rx.so
+vendor/lib/rfsa/adsp/capi_elus_tx.so
 vendor/lib/rfsa/adsp/hrtf5c.bin
 vendor/lib/rfsa/adsp/libCalculator_skel.so
 vendor/lib/rfsa/adsp/libDspIOProxy_skel.so
