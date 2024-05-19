@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_cupid.mk
-
-COMMON_LUNCH_CHOICES := \
-    aosp_cupid-user \
-    aosp_cupid-userdebug \
-    aosp_cupid-eng
