@@ -13,9 +13,6 @@ include vendor/xiaomi/cupid/BoardConfigVendor.mk
 DEVICE_PATH := device/xiaomi/cupid
 
 # Kernel
-TARGET_KERNEL_CLANG_VERSION += ClangBuiltLinux
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-slim
-
 device_second_stage_modules := \
     goodix_fod.ko \
     qcom_pm8008-regulator.ko \
