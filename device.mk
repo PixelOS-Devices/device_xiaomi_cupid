@@ -10,9 +10,6 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/cupid/cupid-vendor.mk)
 
-# MiuiCamera
-$(call inherit-product, vendor/xiaomi/camera/miuicamera.mk)
-
 # Overlay
 PRODUCT_PACKAGES += \
     ApertureResCupid \
