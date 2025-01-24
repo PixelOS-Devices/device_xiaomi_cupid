@@ -52,6 +52,10 @@ blob_fixups: blob_fixups_user_type = {
         'vendor.qti.hardware.display.config-V2-ndk_platform.so',
         'vendor.qti.hardware.display.config-V2-ndk.so',
     ),
+    ('vendor/lib64/hw/camera.qcom.so', 'vendor/lib64/libFaceDetectpp-0.5.2.so', 'vendor/lib64/libfacedet.so', 'vendor/etc/camera/megviifacepp_0_5_2_model'): blob_fixup()
+        .replace_needed('libmegface.so', 'libfacedet.so')
+        .replace_needed('libMegviiFacepp-0.5.2.so', 'libFaceDetectpp-0.5.2.so')
+        .replace_needed('megviifacepp_0_5_2_model', 'facedetectpp_0_5_2_model'),
 }
 
 module = ExtractUtilsModule(
